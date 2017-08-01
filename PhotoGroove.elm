@@ -10,7 +10,7 @@ import Json.Decode exposing (string, int, list, Decoder, at, Value)
 import Json.Decode.Pipeline exposing (decode, required, optional)
 
 baseUrl : String
-baseUrl = "http://elm-in-action.com/"
+baseUrl = "https://elm-in-action.com/"
 
 port setFilters : FilterOptions -> Cmd msg
 
