@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>Kex's Photo Groove</title>
-    <link rel="stylesheet" href="http://elm-in-action.com/styles.css">
+    <link rel="stylesheet" href="./vendor/styles.css">
     <script>window.Polymer = {dom: "shadow"};</script>
-    <script src="http://elm-in-action.com/polyfill/webcomponents.js"></script>
+    <script src="./vendor/webcomponents.js"></script>
     <link rel="import" href="http://elm-in-action.com/wc/slider/paper-slider.html">
   </head>
   <body>
     <div id="elm-area"></div>
-    <script src="http://elm-in-action.com/pasta.js"></script>
+    <script src="./vendor/pasta.js"></script>
     <script src="elm.js"></script>
     <script>
       var app = Elm.PhotoGroove.embed(document.getElementById("elm-area"), Pasta.version);
