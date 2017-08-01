@@ -13551,7 +13551,7 @@ var _user$project$PhotoGroove$viewLarge = function (maybeUrl) {
 			{ctor: '[]'});
 	}
 };
-var _user$project$PhotoGroove$baseUrl = 'http://elm-in-action.com/';
+var _user$project$PhotoGroove$baseUrl = 'https://elm-in-action.com/';
 var _user$project$PhotoGroove$setFilters = _elm_lang$core$Native_Platform.outgoingPort(
 	'setFilters',
 	function (v) {
